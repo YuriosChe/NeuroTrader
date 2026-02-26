@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroTrader — нейросетевой помощник на бирже</title>
+    <!-- Простые и понятные стили для вашего сайта -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.9em;
+            margin-bottom: 25px;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin: 25px 0;
+        }
+
+        .feature-list li {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .feature-list li::before {
+            content: "✓";
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+        }
+
+        .highlight {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .contact {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eef2f6;
+            text-align: center;
+            color: #666;
+        }
+
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: #5a67d8;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>NeuroTrader</h1>
+        <div class="badge">Ваш нейросетевой помощник на бирже</div>
+        
+        <p style="font-size: 1.2em; color: #4a5568;">Анализируем российские акции, прогнозируем тренды. Используем передовые модели глубокого обучения (LLM) для принятия взвешенных инвестиционных решений.</p>
+        
+        <div class="highlight">
+            <strong>🧠 Как это работает:</strong> Нейросеть анализирует рыночные данные, новостной фон и технические индикаторы, чтобы предоставить вам четкий прогноз по интересующим акциям.
+        </div>
+
+        <ul class="feature-list">
+            <li><strong>Анализ российского рынка</strong> — в фокусе акции, торгуемые на Московской бирже</li>
+            <li><strong>Прогнозирование трендов</strong> — модели LLM и глубокого обучения для предсказания движения цен</li>
+            <li><strong>Персональные рекомендации</strong> — адаптация стратегии под ваш риск-профиль</li>
+            <li><strong>24/7 Доступность</strong> — бот всегда рядом, чтобы ответить на вопросы и дать сигнал</li>
+        </ul>
+
+        <p>NeuroTrader создан для частных инвесторов, которые хотят использовать силу искусственного интеллекта в своей торговле. Мы объединили сложные алгоритмы с простым интерфейсом Telegram-бота.</p>
+
+        <!-- Здесь можно вставить ссылку на бота, когда он будет готов -->
+        <a href="#" class="button">🔗 Перейти к боту в Telegram</a>
+
+        <div class="contact">
+            <p>Официальная регистрация: <strong>[Название вашего ООО или ИП]</strong></p>
+            <p>По вопросам сотрудничества: <strong>[Ваш email]</strong></p>
+            <p>© 2024 NeuroTrader. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>
